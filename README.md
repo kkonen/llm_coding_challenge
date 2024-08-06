@@ -45,6 +45,6 @@ Zusätzlich könnte der Festplattenspeicher, bei sehr sehr vielen PDFs irgendwan
 
 1. Place the PDFs inside the ```data/``` folder.
 2. Create a ```.env``` file inside the root folder and add your ```COHERE_API_KEY``` 
-3. run ```docker build -t llm_challenge .```
-4. attach to the docker with ```docker run -it llm_challenge bash```
+3. Run ```docker build -t llm_challenge .```
+4. Attach to the docker with ```docker run -it llm_challenge bash```
 5. See section Usage 
