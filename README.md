@@ -40,3 +40,11 @@ Wo sind bottlenecks oder etwaige Probleme zu erwarten?
 * Etwaige Bottlenecks können wie oben genannt der RAM Speicher sein, oder das Erstellen der Embeddings.
 Die Geschwindigkeit, mit der Embeddings in die Datenbank geschrieben werden, kann ein Bottleneck sein. Optimierungen wie Batch-Insertions können hier helfen.
 Zusätzlich könnte der Festplattenspeicher, bei sehr sehr vielen PDFs irgendwann ein Bottleneck darstellen, bei einer Anzahl von 500 PDFs sollte dies jedoch noch kein Problem darstellen. Wie oben genannt, kann ebenfalls die benötigte Zeit zum Durchsuchen der Embeddings zunehmen und ggf. ein Bottleneck darstellen.
+
+# Docker 
+
+1. Place the PDFs inside the ```data/``` folder.
+2. Create a ```.env``` file inside the root folder and add your ```COHERE_API_KEY``` 
+3. run ```docker build -t llm_challenge .```
+4. attach to the docker with ```docker run -it llm_challenge bash```
+5. See section Usage 
