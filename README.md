@@ -21,6 +21,9 @@ If you are starting from scratch, first run:
 ```python langchain_scripts/retriever.py```  
 in order to create the vector database needed for our semantic search of the supplied PDFs.
 
+Also run the json extractor, in order to ask questions like the ones specified for task 2 (this make take some time):
+```python langchain_scripts/create_jsons.py```
+
 Change the question you want to ask inside the ```main.py``` file and run it via  
 ```python main.py```
 

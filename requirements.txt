@@ -4,3 +4,6 @@ langchain-cohere==0.1.9
 langchain-chroma
 pypdf
 chromadb
+pandas
+pdfplumber
+tqdm
