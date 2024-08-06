@@ -49,5 +49,5 @@ Ein Zusätzlicher Bottleneck ist sicherlich der JSON Extractor, hier ist bereits
 1. Place the PDFs inside the ```data/``` folder.
 2. Create a ```.env``` file inside the root folder and add your ```COHERE_API_KEY``` 
 3. Run ```docker build -t llm_challenge .```
-4. Attach to the docker with ```docker run -it llm_challenge bash```
+4. Run the docker container and attach a bash to it with ```docker run -it llm_challenge bash```
 5. See section Usage 
